@@ -1,13 +1,10 @@
-package com.simulator;
+package com.Simulator;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import com.VisualizationHandler.OpenGLDisplay;
+
+public class App {
+    public static void main(String[] args) {
+        OpenGLDisplay display = new OpenGLDisplay(640,420, "Hello sharks!");
+        display.testDisplay();
     }
 }
